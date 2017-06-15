@@ -1,0 +1,13 @@
+[{
+ "name":"bMap",
+ "class":"UZBMap",
+ "methods":["initMapSDK","open","getCurrentLocation","setRect","close","show","hide","getLocation","stopLocation","getLocationServices","setLocation","getCoordsFromName","getNameFromCoords","getDistance","showUserLocation","setCenter","getCenter","setZoomLevel","setZoomEnable","getZoomLevel","setRotation","setOverlook","setMapAttr","setRegion","getRegion","transCoords","zoomIn","zoomOut","addEventListener","removeEventListener","addAnnotations","getAnnotationCoords","setAnnotationCoords","annotationExist","setBubble","popupBubble","closeBubble","addBillboard","removeAnnotations","addLine","addPolygon","addCircle","addArc","addImg","removeOverlay","searchRoute","drawRoute","setRoutePlan","removeRoute","searchBusRoute","drawBusRoute","removeBusRoute","autocomplete","searchInCity","searchNearby","searchInBounds","moveAnnotation","setScaleBar","setCompass","setTraffic","setHeatMap","setBuilding","addMobileAnnotations","moveAnotation","isPolygonContantsPoint","getHotCityList","getOfflineCityList","searchCityByName","getAllUpdateInfo","getUpdateInfoByID","start","update","pause","remove","addOfflineListener","removeOfflineListener"]
+ }
+,{
+    "name":"mam",
+    "class":"UZMAM",
+    "methods":["checkUpdate","addEvent","execCommand","showToastAlert","hideToastAlert"],
+    "syncMethods":["syncExecCommand"],
+    "launchClassMethod":"launch"
+}
+]

@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACB053F21EF21850005176A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB053F11EF21850005176A6 /* main.m */; };
+		ACB053F51EF21850005176A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB053F41EF21850005176A6 /* AppDelegate.m */; };
+		ACB053FD1EF21850005176A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB053FC1EF21850005176A6 /* Assets.xcassets */; };
+		ACB054001EF21850005176A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB053FE1EF21850005176A6 /* LaunchScreen.storyboard */; };
+		ACB054381EF2199C005176A6 /* APICloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB054091EF2199C005176A6 /* APICloud.a */; };
+		ACB054391EF2199C005176A6 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB0541A1EF2199C005176A6 /* BaiduMapAPI_Base.framework */; };
+		ACB0543A1EF2199C005176A6 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB0541B1EF2199C005176A6 /* BaiduMapAPI_Cloud.framework */; };
+		ACB0543B1EF2199C005176A6 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB0541C1EF2199C005176A6 /* BaiduMapAPI_Location.framework */; };
+		ACB0543C1EF2199C005176A6 /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB0541D1EF2199C005176A6 /* BaiduMapAPI_Map.framework */; };
+		ACB0543D1EF2199C005176A6 /* BaiduMapAPI_Radar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB0541E1EF2199C005176A6 /* BaiduMapAPI_Radar.framework */; };
+		ACB0543E1EF2199C005176A6 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB0541F1EF2199C005176A6 /* BaiduMapAPI_Search.framework */; };
+		ACB0543F1EF2199C005176A6 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB054201EF2199C005176A6 /* BaiduMapAPI_Utils.framework */; };
+		ACB054401EF2199C005176A6 /* bMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB054211EF2199C005176A6 /* bMap.a */; };
+		ACB054411EF2199C005176A6 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB054221EF2199C005176A6 /* libcrypto.a */; };
+		ACB054421EF2199C005176A6 /* libminizip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB054231EF2199C005176A6 /* libminizip.a */; };
+		ACB054431EF2199C005176A6 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB054241EF2199C005176A6 /* libopencore-amrnb.a */; };
+		ACB054441EF2199C005176A6 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB054251EF2199C005176A6 /* libopencore-amrwb.a */; };
+		ACB054451EF2199C005176A6 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB054261EF2199C005176A6 /* libssl.a */; };
+		ACB054461EF2199C005176A6 /* mam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB054271EF2199C005176A6 /* mam.a */; };
+		ACB054471EF2199C005176A6 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ACB054281EF2199C005176A6 /* mapapi.bundle */; };
+		ACB054561EF21A0C005176A6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB054551EF21A0C005176A6 /* WebKit.framework */; };
+		ACB0545A1EF21A48005176A6 /* res_bMap in Resources */ = {isa = PBXBuildFile; fileRef = ACB054571EF21A48005176A6 /* res_bMap */; };
+		ACB0545B1EF21A48005176A6 /* res_mam in Resources */ = {isa = PBXBuildFile; fileRef = ACB054581EF21A48005176A6 /* res_mam */; };
+		ACB0545C1EF21A48005176A6 /* uz in Resources */ = {isa = PBXBuildFile; fileRef = ACB054591EF21A48005176A6 /* uz */; };
+		ACB0545E1EF21A6E005176A6 /* widget in Resources */ = {isa = PBXBuildFile; fileRef = ACB0545D1EF21A6E005176A6 /* widget */; };
+		ACB054601EF21A9B005176A6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB0545F1EF21A9B005176A6 /* libz.tbd */; };
+		ACB054621EF21AAE005176A6 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB054611EF21AAE005176A6 /* libicucore.tbd */; };
+		ACB054641EF21ABA005176A6 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB054631EF21ABA005176A6 /* libstdc++.tbd */; };
+		ACB054661EF21B62005176A6 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB054651EF21B62005176A6 /* libstdc++.6.tbd */; };
+		ACB054681EF21BAD005176A6 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB054671EF21BAD005176A6 /* libstdc++.6.0.9.tbd */; };
+		ACB0546A1EF21BEF005176A6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB054691EF21BEF005176A6 /* libsqlite3.tbd */; };
+		ACB0546D1EF21CE0005176A6 /* MyNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB0546C1EF21CE0005176A6 /* MyNaviController.m */; };
+		ACB054711EF21CFE005176A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB0546F1EF21CFE005176A6 /* ViewController.m */; };
+		ACB054721EF21CFE005176A6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB054701EF21CFE005176A6 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACB053ED1EF21850005176A6 /* APICloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APICloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB053F11EF21850005176A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACB053F31EF21850005176A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACB053F41EF21850005176A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACB053FC1EF21850005176A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACB053FF1EF21850005176A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACB054011EF21850005176A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB054091EF2199C005176A6 /* APICloud.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = APICloud.a; sourceTree = "<group>"; };
+		ACB0540A1EF2199C005176A6 /* APIEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIEvent.h; sourceTree = "<group>"; };
+		ACB0540B1EF2199C005176A6 /* APIExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIExport.h; sourceTree = "<group>"; };
+		ACB0540D1EF2199C005176A6 /* NSDictionaryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryUtils.h; sourceTree = "<group>"; };
+		ACB0540E1EF2199C005176A6 /* UZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZAppDelegate.h; sourceTree = "<group>"; };
+		ACB0540F1EF2199C005176A6 /* UZAppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZAppUtils.h; sourceTree = "<group>"; };
+		ACB054101EF2199C005176A6 /* UZModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZModule.h; sourceTree = "<group>"; };
+		ACB054111EF2199C005176A6 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		ACB054121EF2199C005176A6 /* APIModuleMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIModuleMethod.h; sourceTree = "<group>"; };
+		ACB054131EF2199C005176A6 /* APIScriptMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIScriptMessage.h; sourceTree = "<group>"; };
+		ACB054141EF2199C005176A6 /* APIUpdateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIUpdateManager.h; sourceTree = "<group>"; };
+		ACB054151EF2199C005176A6 /* APIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIWebView.h; sourceTree = "<group>"; };
+		ACB054161EF2199C005176A6 /* APIWidgetContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIWidgetContainer.h; sourceTree = "<group>"; };
+		ACB054171EF2199C005176A6 /* APIWindowContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIWindowContainer.h; sourceTree = "<group>"; };
+		ACB054181EF2199C005176A6 /* UZWebViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZWebViewProtocol.h; sourceTree = "<group>"; };
+		ACB0541A1EF2199C005176A6 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		ACB0541B1EF2199C005176A6 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		ACB0541C1EF2199C005176A6 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		ACB0541D1EF2199C005176A6 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		ACB0541E1EF2199C005176A6 /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
+		ACB0541F1EF2199C005176A6 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		ACB054201EF2199C005176A6 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		ACB054211EF2199C005176A6 /* bMap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = bMap.a; sourceTree = "<group>"; };
+		ACB054221EF2199C005176A6 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		ACB054231EF2199C005176A6 /* libminizip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libminizip.a; sourceTree = "<group>"; };
+		ACB054241EF2199C005176A6 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		ACB054251EF2199C005176A6 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		ACB054261EF2199C005176A6 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		ACB054271EF2199C005176A6 /* mam.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = mam.a; sourceTree = "<group>"; };
+		ACB054281EF2199C005176A6 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		ACB054551EF21A0C005176A6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		ACB054571EF21A48005176A6 /* res_bMap */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res_bMap; sourceTree = "<group>"; };
+		ACB054581EF21A48005176A6 /* res_mam */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res_mam; sourceTree = "<group>"; };
+		ACB054591EF21A48005176A6 /* uz */ = {isa = PBXFileReference; lastKnownFileType = folder; path = uz; sourceTree = "<group>"; };
+		ACB0545D1EF21A6E005176A6 /* widget */ = {isa = PBXFileReference; lastKnownFileType = folder; path = widget; sourceTree = "<group>"; };
+		ACB0545F1EF21A9B005176A6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		ACB054611EF21AAE005176A6 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		ACB054631EF21ABA005176A6 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		ACB054651EF21B62005176A6 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		ACB054671EF21BAD005176A6 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		ACB054691EF21BEF005176A6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		ACB0546B1EF21CE0005176A6 /* MyNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNaviController.h; sourceTree = "<group>"; };
+		ACB0546C1EF21CE0005176A6 /* MyNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNaviController.m; sourceTree = "<group>"; };
+		ACB0546E1EF21CFE005176A6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACB0546F1EF21CFE005176A6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACB054701EF21CFE005176A6 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACB053EA1EF21850005176A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB0546A1EF21BEF005176A6 /* libsqlite3.tbd in Frameworks */,
+				ACB054681EF21BAD005176A6 /* libstdc++.6.0.9.tbd in Frameworks */,
+				ACB054661EF21B62005176A6 /* libstdc++.6.tbd in Frameworks */,
+				ACB054641EF21ABA005176A6 /* libstdc++.tbd in Frameworks */,
+				ACB054621EF21AAE005176A6 /* libicucore.tbd in Frameworks */,
+				ACB054601EF21A9B005176A6 /* libz.tbd in Frameworks */,
+				ACB054561EF21A0C005176A6 /* WebKit.framework in Frameworks */,
+				ACB054461EF2199C005176A6 /* mam.a in Frameworks */,
+				ACB054381EF2199C005176A6 /* APICloud.a in Frameworks */,
+				ACB054431EF2199C005176A6 /* libopencore-amrnb.a in Frameworks */,
+				ACB054451EF2199C005176A6 /* libssl.a in Frameworks */,
+				ACB054421EF2199C005176A6 /* libminizip.a in Frameworks */,
+				ACB0543D1EF2199C005176A6 /* BaiduMapAPI_Radar.framework in Frameworks */,
+				ACB054391EF2199C005176A6 /* BaiduMapAPI_Base.framework in Frameworks */,
+				ACB054441EF2199C005176A6 /* libopencore-amrwb.a in Frameworks */,
+				ACB054401EF2199C005176A6 /* bMap.a in Frameworks */,
+				ACB0543A1EF2199C005176A6 /* BaiduMapAPI_Cloud.framework in Frameworks */,
+				ACB0543F1EF2199C005176A6 /* BaiduMapAPI_Utils.framework in Frameworks */,
+				ACB054411EF2199C005176A6 /* libcrypto.a in Frameworks */,
+				ACB0543C1EF2199C005176A6 /* BaiduMapAPI_Map.framework in Frameworks */,
+				ACB0543B1EF2199C005176A6 /* BaiduMapAPI_Location.framework in Frameworks */,
+				ACB0543E1EF2199C005176A6 /* BaiduMapAPI_Search.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACB053E41EF21850005176A6 = {
+			isa = PBXGroup;
+			children = (
+				ACB053EF1EF21850005176A6 /* APICloudDemo */,
+				ACB053EE1EF21850005176A6 /* Products */,
+				ACB054541EF21A0C005176A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACB053EE1EF21850005176A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACB053ED1EF21850005176A6 /* APICloudDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACB053EF1EF21850005176A6 /* APICloudDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ACB0545D1EF21A6E005176A6 /* widget */,
+				ACB054071EF2199C005176A6 /* SDK */,
+				ACB053F31EF21850005176A6 /* AppDelegate.h */,
+				ACB053F41EF21850005176A6 /* AppDelegate.m */,
+				ACB0546B1EF21CE0005176A6 /* MyNaviController.h */,
+				ACB0546C1EF21CE0005176A6 /* MyNaviController.m */,
+				ACB0546E1EF21CFE005176A6 /* ViewController.h */,
+				ACB0546F1EF21CFE005176A6 /* ViewController.m */,
+				ACB054701EF21CFE005176A6 /* ViewController.xib */,
+				ACB053FC1EF21850005176A6 /* Assets.xcassets */,
+				ACB053FE1EF21850005176A6 /* LaunchScreen.storyboard */,
+				ACB054011EF21850005176A6 /* Info.plist */,
+				ACB053F01EF21850005176A6 /* Supporting Files */,
+			);
+			path = APICloudDemo;
+			sourceTree = "<group>";
+		};
+		ACB053F01EF21850005176A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACB053F11EF21850005176A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACB054071EF2199C005176A6 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				ACB054081EF2199C005176A6 /* Engine */,
+				ACB054191EF2199C005176A6 /* Modules */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		ACB054081EF2199C005176A6 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				ACB054091EF2199C005176A6 /* APICloud.a */,
+				ACB0540A1EF2199C005176A6 /* APIEvent.h */,
+				ACB0540B1EF2199C005176A6 /* APIExport.h */,
+				ACB0540C1EF2199C005176A6 /* APIKit */,
+				ACB054111EF2199C005176A6 /* APIManager.h */,
+				ACB054121EF2199C005176A6 /* APIModuleMethod.h */,
+				ACB054131EF2199C005176A6 /* APIScriptMessage.h */,
+				ACB054141EF2199C005176A6 /* APIUpdateManager.h */,
+				ACB054151EF2199C005176A6 /* APIWebView.h */,
+				ACB054161EF2199C005176A6 /* APIWidgetContainer.h */,
+				ACB054171EF2199C005176A6 /* APIWindowContainer.h */,
+				ACB054181EF2199C005176A6 /* UZWebViewProtocol.h */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		ACB0540C1EF2199C005176A6 /* APIKit */ = {
+			isa = PBXGroup;
+			children = (
+				ACB0540D1EF2199C005176A6 /* NSDictionaryUtils.h */,
+				ACB0540E1EF2199C005176A6 /* UZAppDelegate.h */,
+				ACB0540F1EF2199C005176A6 /* UZAppUtils.h */,
+				ACB054101EF2199C005176A6 /* UZModule.h */,
+			);
+			path = APIKit;
+			sourceTree = "<group>";
+		};
+		ACB054191EF2199C005176A6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				ACB054571EF21A48005176A6 /* res_bMap */,
+				ACB054581EF21A48005176A6 /* res_mam */,
+				ACB054591EF21A48005176A6 /* uz */,
+				ACB0541A1EF2199C005176A6 /* BaiduMapAPI_Base.framework */,
+				ACB0541B1EF2199C005176A6 /* BaiduMapAPI_Cloud.framework */,
+				ACB0541C1EF2199C005176A6 /* BaiduMapAPI_Location.framework */,
+				ACB0541D1EF2199C005176A6 /* BaiduMapAPI_Map.framework */,
+				ACB0541E1EF2199C005176A6 /* BaiduMapAPI_Radar.framework */,
+				ACB0541F1EF2199C005176A6 /* BaiduMapAPI_Search.framework */,
+				ACB054201EF2199C005176A6 /* BaiduMapAPI_Utils.framework */,
+				ACB054211EF2199C005176A6 /* bMap.a */,
+				ACB054221EF2199C005176A6 /* libcrypto.a */,
+				ACB054231EF2199C005176A6 /* libminizip.a */,
+				ACB054241EF2199C005176A6 /* libopencore-amrnb.a */,
+				ACB054251EF2199C005176A6 /* libopencore-amrwb.a */,
+				ACB054261EF2199C005176A6 /* libssl.a */,
+				ACB054271EF2199C005176A6 /* mam.a */,
+				ACB054281EF2199C005176A6 /* mapapi.bundle */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		ACB054541EF21A0C005176A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACB054691EF21BEF005176A6 /* libsqlite3.tbd */,
+				ACB054671EF21BAD005176A6 /* libstdc++.6.0.9.tbd */,
+				ACB054651EF21B62005176A6 /* libstdc++.6.tbd */,
+				ACB054631EF21ABA005176A6 /* libstdc++.tbd */,
+				ACB054611EF21AAE005176A6 /* libicucore.tbd */,
+				ACB0545F1EF21A9B005176A6 /* libz.tbd */,
+				ACB054551EF21A0C005176A6 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACB053EC1EF21850005176A6 /* APICloudDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB054041EF21850005176A6 /* Build configuration list for PBXNativeTarget "APICloudDemo" */;
+			buildPhases = (
+				ACB053E91EF21850005176A6 /* Sources */,
+				ACB053EA1EF21850005176A6 /* Frameworks */,
+				ACB053EB1EF21850005176A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APICloudDemo;
+			productName = APICloudDemo;
+			productReference = ACB053ED1EF21850005176A6 /* APICloudDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACB053E51EF21850005176A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = vpjacob;
+				TargetAttributes = {
+					ACB053EC1EF21850005176A6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HN2F9US93L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ACB053E81EF21850005176A6 /* Build configuration list for PBXProject "APICloudDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACB053E41EF21850005176A6;
+			productRefGroup = ACB053EE1EF21850005176A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACB053EC1EF21850005176A6 /* APICloudDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACB053EB1EF21850005176A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB054001EF21850005176A6 /* LaunchScreen.storyboard in Resources */,
+				ACB054471EF2199C005176A6 /* mapapi.bundle in Resources */,
+				ACB054721EF21CFE005176A6 /* ViewController.xib in Resources */,
+				ACB0545E1EF21A6E005176A6 /* widget in Resources */,
+				ACB053FD1EF21850005176A6 /* Assets.xcassets in Resources */,
+				ACB0545B1EF21A48005176A6 /* res_mam in Resources */,
+				ACB0545C1EF21A48005176A6 /* uz in Resources */,
+				ACB0545A1EF21A48005176A6 /* res_bMap in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACB053E91EF21850005176A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB0546D1EF21CE0005176A6 /* MyNaviController.m in Sources */,
+				ACB053F51EF21850005176A6 /* AppDelegate.m in Sources */,
+				ACB054711EF21CFE005176A6 /* ViewController.m in Sources */,
+				ACB053F21EF21850005176A6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACB053FE1EF21850005176A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB053FF1EF21850005176A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACB054021EF21850005176A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACB054031EF21850005176A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACB054051EF21850005176A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HN2F9US93L;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/APICloudDemo/SDK/Modules",
+				);
+				INFOPLIST_FILE = APICloudDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/APICloudDemo/SDK/Engine",
+					"$(PROJECT_DIR)/APICloudDemo/SDK/Modules",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.api.testapp20170605;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ACB054061EF21850005176A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HN2F9US93L;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/APICloudDemo/SDK/Modules",
+				);
+				INFOPLIST_FILE = APICloudDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/APICloudDemo/SDK/Engine",
+					"$(PROJECT_DIR)/APICloudDemo/SDK/Modules",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.api.testapp20170605;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACB053E81EF21850005176A6 /* Build configuration list for PBXProject "APICloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB054021EF21850005176A6 /* Debug */,
+				ACB054031EF21850005176A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB054041EF21850005176A6 /* Build configuration list for PBXNativeTarget "APICloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB054051EF21850005176A6 /* Debug */,
+				ACB054061EF21850005176A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACB053E51EF21850005176A6 /* Project object */;
+}

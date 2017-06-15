@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget id="A0000000000000" version="0.0.1"> 
+  <name>ProjectFirst</name>  
+  <content src="index.html"/>  
+  <access origin="*"/>
+  <preference name="smartUpdate" value="false"/>
+  <preference name="statusBarAppearance" value="true" />
+  <preference name="debug" value="true"/>
+  <feature name="bMap">
+      
+      <param name="ios_api_key" value="rh2aEwDUAWkDbpslKaoNlMauRU64ZHGz" />
+  </feature>
+</widget>
