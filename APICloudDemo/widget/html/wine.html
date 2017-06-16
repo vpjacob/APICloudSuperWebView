@@ -12,7 +12,7 @@
     		color:#999;
     		padding:5px;
     	}
-    	
+
     	.iconbg {
 			background: url(../image/163.png) no-repeat center;
 		  	background-size:80px 80px;
@@ -45,10 +45,56 @@
                                       fixed: true
                                       }, function(ret) {
                                       if (ret.status) {
-                                      alert('地图打开成功');
+
+map.setCompass({//设置罗盘
+    position: {
+      x:40,
+      y:40
+    }
+});
+
+map.showUserLocation({//设置跟踪模式
+    isShow: true,
+    trackingMode: 'follow'
+});
+
+map.getLocation({//获取用户的坐标
+    accuracy: '100m',
+    autoStop: true,
+    filter: 1
+}, function(ret, err) {
+    if (ret.status) {//成功后添加个图标
+
+      map.addAnnotations({
+          annotations: [{
+              id: 1,
+              lon: ret.lon,
+              lat: ret.lat
+          }, {
+              id: 2,
+              lon: 116.29,
+              lat: 40.109
+          }],
+          icon: 'widget://',
+          draggable: true
+      }, function(ret) {
+          if (ret) {
+              alert(ret.id);
+          }
+      });
+
+        
+    } else {
+        alert(err.code);
+    }
+});
+
                                       }
                                       });
 	    };
+
+
+
 	</script>
 </head>
 <body class='iconbg'>
