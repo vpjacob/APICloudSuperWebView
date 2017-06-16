@@ -6,13 +6,14 @@
     <meta name="format-detection" content="telephone=no, email=no, date=no, address=no">
     <title>WinF</title>
     <link rel="stylesheet" type="text/css" href="../css/api.css" />
+    <link rel="stylesheet" type="text/css" href="../css/box.css" />
     <script type="text/javascript" src="../script/public.js"></script>
     <style>
     	p{
     		color:#999;
     		padding:5px;
     	}
-    	
+
     	.iconbg {
 			background: url(../image/tianmao.png) no-repeat center;
 		  	background-size:80px 80px;
@@ -23,6 +24,22 @@
 			fixStatusBar();//沉浸式效果，支持IOS7及Android4.4及以上
 			//TODO
 	    };
+
+  function nativeAction() {
+    api.accessNative({
+        name: 'pushVC'
+
+    });
+  }
+    function requestEvent(){
+      api.accessNative({
+        name: 'requestEvent'
+      });
+    }
+
+
+
+
 	</script>
 </head>
 <body class='iconbg'>
@@ -33,7 +50,12 @@
             <div class="adpt" ></div>
         </div>
         <div id="main">
-           <p>这里是窗口<br>请在[widget/html/winf.html]中实现你的UI及业务逻辑</p>    
+           <p>这里是窗口<br>请在[widget/html/winf.html]中实现你的UI及业务逻辑</p>
+           <br>
+           <br>
+           <div class="itemtitle" >把事件发送给Native</div>
+            <lable>点击下面的按钮，发送事件</lable>
+            <div class="clickbtn" tapmode="active" onclick="nativeAction()">发送事件</div>
         </div>
     </div>
 </body>

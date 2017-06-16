@@ -41,6 +41,7 @@
 		ACB0546D1EF21CE0005176A6 /* MyNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB0546C1EF21CE0005176A6 /* MyNaviController.m */; };
 		ACB054711EF21CFE005176A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB0546F1EF21CFE005176A6 /* ViewController.m */; };
 		ACB054721EF21CFE005176A6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB054701EF21CFE005176A6 /* ViewController.xib */; };
+		D629A8691EF3847B00814B16 /* JJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D629A8681EF3847B00814B16 /* JJViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +98,8 @@
 		ACB0546E1EF21CFE005176A6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ACB0546F1EF21CFE005176A6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ACB054701EF21CFE005176A6 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		D629A8671EF3847B00814B16 /* JJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJViewController.h; sourceTree = "<group>"; };
+		D629A8681EF3847B00814B16 /* JJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +163,8 @@
 				ACB0546C1EF21CE0005176A6 /* MyNaviController.m */,
 				ACB0546E1EF21CFE005176A6 /* ViewController.h */,
 				ACB0546F1EF21CFE005176A6 /* ViewController.m */,
+				D629A8671EF3847B00814B16 /* JJViewController.h */,
+				D629A8681EF3847B00814B16 /* JJViewController.m */,
 				ACB054701EF21CFE005176A6 /* ViewController.xib */,
 				ACB053FC1EF21850005176A6 /* Assets.xcassets */,
 				ACB053FE1EF21850005176A6 /* LaunchScreen.storyboard */,
@@ -333,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB0546D1EF21CE0005176A6 /* MyNaviController.m in Sources */,
+				D629A8691EF3847B00814B16 /* JJViewController.m in Sources */,
 				ACB053F51EF21850005176A6 /* AppDelegate.m in Sources */,
 				ACB054711EF21CFE005176A6 /* ViewController.m in Sources */,
 				ACB053F21EF21850005176A6 /* main.m in Sources */,
@@ -514,6 +520,7 @@
 				ACB054061EF21850005176A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

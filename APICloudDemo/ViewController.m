@@ -13,6 +13,8 @@
 #import "APIWebView.h"
 #import "APIScriptMessage.h"
 #import "APIModuleMethod.h"
+#import "JJViewController.h"
+
 
 @interface ViewController ()
 <APIWebViewDelegate, APIModuleMethodDelegate, APIScriptMessageDelegate>
@@ -91,6 +93,9 @@
         [webView sendResultWithCallback:scriptMessage.callback ret:@{@"result":@"value"} err:nil delete:YES];
     } else if ([scriptMessage.name isEqual:@"requestEvent"]) {
         [[APIEventCenter defaultCenter] sendEventWithName:@"fromNative" userInfo:@{@"value":@"哈哈哈，我是来自Native的事件"}];
+    }else if ([scriptMessage.name isEqualToString:@"pushVC"]){
+        JJViewController *vc = [JJViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 
